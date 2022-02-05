@@ -1,6 +1,7 @@
 .body   {
     display: flex;
     flex-direction: column;
+    flex: 1 ;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     /* Background image not working */
     background-image: url(images/background.jpeg);
@@ -75,7 +76,6 @@ button {
 .right-subheader img  {
     height: 300px;
     width: 600px;
-    /* width: 150%; */
     display: block;
     border: none;
 }
@@ -106,10 +106,15 @@ button {
 
 img {
     object-fit: cover;
-    width: 200px;
-    height: 200px;
+    /* width: 200px;
+    height: 200px; */
     border-radius: 8px;
     border: solid 3px #3882F6;
+}
+
+.responsive {
+    width: 80%;
+    height: 50%;
 }
 
 .subtext2 {
