@@ -1,6 +1,7 @@
 .body   {
     display: flex;
     flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .one    {
@@ -65,28 +66,102 @@ button {
 }
 
 
-img {
+.right-subheader img  {
     height: 300px;
     width: 600px;
     display: block;
 }
 
 
-
-
 .two    {
     background-color: #ffffff;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.random-info {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.illustration-subtext {
+    display: flex;
+    vertical-align: top;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border: solid 3px #3882F6;
+}
+
+.subtext2 {
+    display: block;
+    flex-wrap: wrap;
+}
+
 
 .three  {
     background-color: #e5e7eb;
     height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 400px 0 400px;
+
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote-credits {
+    font-weight: bold;
+    display: flex;
+    text-align: right;
+    padding-left: 85%;
 }
 
 .four   {
     background-color: #ffffff;
     height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6 ;
+    border-radius: 8px;
+    width: 60%;
+    height: 20%;
+}
+
+.action-section .signup1 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.action-section .signup2 {
+    color: #e5e7eb;
+}
+
+.four button {
+    border: solid 1px #ffffff;
+    margin-left: 100px;
 }
 
 .five   {
