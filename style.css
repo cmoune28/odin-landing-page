@@ -69,6 +69,7 @@ button {
 .right-subheader img  {
     height: 300px;
     width: 600px;
+    /* width: 150%; */
     display: block;
 }
 
@@ -93,6 +94,7 @@ button {
     text-align: center;
     margin-left: 250px;
     margin-right: 250px;
+    gap: 30px   ;
 }
 
 img {
@@ -172,3 +174,9 @@ img {
     justify-content: center;
 }
 
+/* Picture sizes are not responsive */
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
